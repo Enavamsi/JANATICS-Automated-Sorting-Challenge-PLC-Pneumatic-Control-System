@@ -46,6 +46,7 @@ The mechanical diversion is handled by a custom pneumatic circuit utilizing **JA
 3. **Directional Control Valves (DCVs):** 5/2 spring-return, solenoid-actuated DCVs control the airflow. The 24V solenoids are driven directly by the PLC's transistor outputs (with surge-suppression diodes to absorb inductive kickback).
 4. **Actuators:** Double-acting cylinders provide positive force on both the extend and retract strokes, ensuring the diverter paddles reset reliably even if obstructed.
 5. **Flow Control:** Meter-out flow control valves throttle the exhaust air, preventing mechanical shock and ensuring smooth cylinder extension.
+<img width="1600" height="764" alt="image" src="https://github.com/user-attachments/assets/c7141b85-82a8-4145-a751-15106fb68381" />
 
 ---
 
@@ -66,8 +67,13 @@ The control program consists of 15 networks programmed in TIA Portal, designed w
 3. **Transport:** The conveyor resumes. The PLC begins the specific countdown timer for the identified material.
 4. **Ejection & Auto-Reset:** Once the object reaches the correct station, the pneumatic cylinder extends, sweeping the object into the bin. The system automatically clears its latches and re-arms for the next object.
 
-> **[Insert Project Video / GIF of sorting in action here]**
-> **[Insert TIA Portal Ladder Logic Screenshots here]**
+<img width="2485" height="1398" alt="image" src="https://github.com/user-attachments/assets/f2d0cb2a-bca0-4454-908a-3f690d7f47b0" />
+
+
+https://github.com/user-attachments/assets/d033a459-f77f-4d12-b25b-1ee7e7d8a68f
+
+
+
 
 ---
 
