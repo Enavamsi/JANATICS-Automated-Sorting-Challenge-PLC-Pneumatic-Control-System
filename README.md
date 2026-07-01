@@ -1,4 +1,4 @@
-# ANATICS-Automated-Sorting-Challenge-PLC-Pneumatic-Control-System
+# JANATICS-Automated-Sorting-Challenge-PLC-Pneumatic-Control-System
 
 ## 📌 Project Abstract
 This repository details the design, hardware architecture, and programmable logic control strategy for an autonomous Conveyor-Based Material Sorting System. Built as a laboratory-scale industrial model during my B.Tech in Robotics and Automation Engineering at SIT Pune, this system detects, classifies, and mechanically diverts metallic and non-metallic objects into designated bins. 
